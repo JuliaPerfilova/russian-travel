@@ -5,5 +5,5 @@
   width: calc(100% * (1184 / 1280));
   max-width: 1184px;
   min-height: 52px;
-  margin: 28px 48px 0;
+  padding: 28px 48px 0;
 }
