@@ -1,7 +1,6 @@
 .content {
   display: flex;
   flex-direction: column;
-  width: calc(100% * (984 / 1280));
-  max-width: 984px;
   align-items: center;
+  width: calc(100% * (1184 / 1280));
 }
