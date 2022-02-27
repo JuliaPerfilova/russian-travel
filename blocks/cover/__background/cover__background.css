@@ -3,10 +3,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url(../../../images/footer/footer__background.jpg);
+  background-color: #2A2C2F;
+  opacity: 0.3;
   background-size: cover;
   background-position: top center;
+  object-fit: cover;
   max-width: 1184px;
   max-height: 740px;
-  z-index: -1;
+  z-index: 0;
 }

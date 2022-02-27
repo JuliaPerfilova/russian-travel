@@ -1,3 +1,12 @@
 .place__website {
-  align-self: end;
+  grid-area: website;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
 }
+
+
+    
