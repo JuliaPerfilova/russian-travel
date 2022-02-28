@@ -1,9 +1,14 @@
 .cover {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-size: cover;
   background-image: url(../../images/footer/footer__background.jpg);
+  width: 100%;
   max-width: 1184px;
-  
+  min-height: 740px;
+  background-position: center;
+  z-index: 1;
 }

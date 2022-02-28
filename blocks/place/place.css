@@ -2,9 +2,8 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   grid-template-rows: auto;
+  gap: 48px 40px;
   margin: 80px 0 0;
-  width: 100%;
-  max-width: 984px;
 }
 
 .place:first-of-type {
