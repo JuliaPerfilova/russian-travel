@@ -6,9 +6,27 @@
   align-items: center;
   background-size: cover;
   background-image: url(../../images/footer/footer__background.jpg);
-  width: 100%;
+  width: calc(100% * (1184 / 1280));
   max-width: 1184px;
   min-height: 740px;
   background-position: center;
   z-index: 1;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    width: calc(100% * (928 / 1024));
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    min-height: 480px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover {
+    min-height: 200px;
+  }
 }

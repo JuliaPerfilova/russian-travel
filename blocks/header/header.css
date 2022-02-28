@@ -1,8 +1,31 @@
 .header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
   width: calc(100% * (1184 / 1280));
-  min-height: 52px;
   padding: 28px 0 0;
+
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    width: calc(100% * (928 / 1024));
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    width: calc(100% * (720 / 768));
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    width: calc(100% * (288 / 320));
+    max-width: 288px;
+    min-height: 42px;
+    padding-top: 16px;
+  }
 }
