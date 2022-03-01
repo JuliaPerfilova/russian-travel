@@ -12,14 +12,14 @@ footer {
 
 @media screen and (max-width: 1024px) {
   .footer {
-    width: calc(100% (928/ 1024));
+    width: calc(100% * (928 / 1024));
     max-width: 928px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .footer {
-    width: calc(100% (720 / 768));
+    width: calc(100% * (720 / 768));
     max-width: 720px;
     padding-top: 88px;
   }
@@ -29,7 +29,7 @@ footer {
   .footer {
     flex-direction: column;
     align-items: flex-start;
-    width: calc(100% (715 / 768));
+    width: calc(100% * (715 / 768));
     max-width: 720px;
     padding: 64px 0 24px 16px;
     font-size: 24px;
